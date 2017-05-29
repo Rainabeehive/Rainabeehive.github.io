@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Raina Zhou Dot Com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Unique - Responsive vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Unique, portfolio" />
+    <meta name="author" content="lmtheme" />
+    <link rel="shortcut icon" href="images/currentlogo.png">
+    <script src="https://unpkg.com/react@latest/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@latest/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/transition-animations.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+    <!-- Loading animation -->
+    <div class="preloader">
+        <div class="preloader-animation">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
+        </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div id="page" class="page">
+        <!-- Header -->
+        <header id="site_header" class="header mobile-menu-hide header-color-light">
+            <div class="my-photo tilt-effect">
+                <img src="images/profile-pic.jpeg" style="border-radius:55%;" alt="image">
+            </div>
+
+            <div class="site-title-block">
+                <h1 class="site-title">Raina Zhou</h1>
+            </div>
+
+            <!-- Navigation -->
+            <div class="site-nav">
+                <!-- Main menu -->
+                <ul id="nav" class="site-main-menu">
+                    <li>
+                        <a class="pt-trigger" href="#home" data-animation="21"><i class="menu-icon pe-7s-icon pe-7s-home"></i>Home</a>
+                        <!-- href value = data-id without # of .pt-page. -->
+                    </li>
+                    <li>
+                        <a class="pt-trigger" href="#about_me" data-animation="17"><i class="menu-icon pe-7s-icon pe-7s-user"></i>About me</a>
+                    </li>
+                    <li>
+                        <a class="pt-trigger" href="#resume" data-animation="18"><i class="menu-icon pe-7s-icon pe-7s-id"></i>Resume</a>
+                    </li>
+                    <li>
+                        <a class="pt-trigger" href="#portfolio" data-animation="19"><i class="menu-icon pe-7s-icon pe-7s-portfolio"></i>Projects</a>
+                    </li>
+                    <li>
+                        <a class="pt-trigger" href="#contact" data-animation="20"><i class="menu-icon pe-7s-icon pe-7s-mail"></i>Contact</a>
+                    </li>
+                </ul>
+                <!-- /Main menu -->
+            </div>
+            <!-- Navigation -->
+        </header>
+        <!-- /Header -->
+
+        <!-- Mobile Header -->
+        <div class="mobile-header mobile-visible">
+            <div class="mobile-logo-container">
+                <div class="mobile-site-title">Raina Zhou</div>
+            </div>
+
+            <a class="menu-toggle mobile-visible">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <!-- /Mobile Header -->
+
+        <!-- Main Content -->
+        <div id="main" class="site-main">
+            <!-- Page changer wrapper -->
+            <div class="pt-wrapper" style="background-image: url(images/main_bg_light.jpg);">
+                <!-- Subpages -->
+                <div class="subpages">
+
+                    <!-- Home Subpage -->
+                    <section class="pt-page pt-page-1 section-without-bg section-paddings-0 table" data-id="home">
+                        <div class="section-inner">
+                            <div class="home-page-block">
+                                <h2>Yuhan Raina Zhou</h2>
+                                <div class="owl-carousel text-rotation">
+                                    <div class="item">
+                                        <p class="home-page-description">Frontend-developer</p>
+                                    </div>
+                                    <div class="item">
+                                        <p class="home-page-description">Full-stack developer</p>
+                                    </div>
+                                    <div class="item">
+                                        <p class="home-page-description">E-Business consultant</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End of Home Subpage -->
+
+                    <!-- About Me Subpage -->
+                    <section class="pt-page pt-page-2" data-id="about_me">
+                        <div class="border-block-top-110"></div>
+                        <div class="section-inner">
+                            <div class="section-title-block">
+                                <div class="section-title-wrapper clearfix">
+                                    <h2 class="section-title">About Me</h2>
+                                    <h5 class="section-description">Communicator, Thinker, Creative Doer</h5>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-6 col-lg-4 subpage-block">
+                                    <div class="my-photo-block tilt-effect">
+                                        <img src="images/aboutme-pic" alt="aboutme-pic">
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-6 col-lg-4">
+
+                                    <p>I'm a Master student at Carnegie Mellon University majoring in Information Technology. I'm devoted to excel in Web Application Development and eBusiness solutions. I expect to graduate in Aug, 2017 and looking for a full-time role as a full-stack web developer or Front-end engineer.</p>
+
+                                </div>
+
+                                <div class="col-sm-6 col-md-6 col-lg-4 subpage-block">
+                                    <ul class="info-list">
+                                        <li><span class="title">Address</span><span class="value">6224 Fifth  Avenue, Apt 211H, PA-15232</span></li>
+                                        <li><span class="title">e-mail</span><span class="value">rainac527(AT)gmail.com</span></li>
+                                        <li><span class="title">Phone</span><span class="value">765-479-5724</span></li>
+
+                                    </ul>
+
+                                    <ul class="social-links">
+
+                                        <!-- Full list of social icons: http://fontawesome.io/icons/#brand -->
+
+                                        <li><a class="tip social-button" href="linkedin.com/in/rainabeehive" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a class="tip social-button" href="https://github.com/Rainabeehive" title="Github"><i class="fa fa-github"></i></a></li>
+
+                                        <li><a class="tip social-button" href="https://www.youtube.com/channel/UC18rnxzHEalLOPhqs44_OTQ" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+                                        <li><a class="tip social-button" href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+
+
+                                        <!--<li><a class="tip social-button" href="#" title="last.fm"><i class="fa fa-lastfm"></i></a></li>-->
+                                        <!--<li><a class="tip social-button" href="#" title="Dribbble"><i class="fa fa-dribbble"></i></a></li>-->
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Services block -->
+                            <div class="block-title">
+                                <h3></h3>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-6 col-md-3 subpage-block">
+                                    <div class="service-block">
+                                        <div class="service-info">
+                                            <i class="service-icon pe-7s-icon pe-7s-map"></i>
+                                            <h4>I was born in Hunan, China</h4>
+                                            <p>I received my bachelor's degree in Information System from Purdue University. I now live in Pittsburgh.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3 subpage-block">
+                                    <div class="service-block">
+                                        <div class="service-info">
+                                            <i class="service-icon pe-7s-icon pe-7s-film"></i>
+                                            <h4>I am a film buff</h4>
+                                            <p> I enjoy watching movies. I took undergraduate minor in film study, check and watch the trailers of my <strong><a target="_blank" href="movies/fresh_tomatoes.html" style="color:black;">favorite movies</a></strong> of all time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3 subpage-block">
+                                    <div class="service-block">
+                                        <div class="service-info">
+                                            <i class="service-icon pe-7s-icon pe-7s-photo"></i>
+                                            <h4>I co-founded a magazine</h4>
+                                            <p>which enhance international student community’s self-awarenessand. I self-learned graphic design, check my portfolio <strong><a target="_blank" href="#" style="color:black;">here</a></strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="col-sm-6 col-md-3 subpage-block">
+                                    <div class="service-block">
+                                        <div class="service-info">
+                                            <i class="service-icon pe-7s-icon pe-7s-car"></i>
+                                            <h4>Travel and change of place</h4>
+                                            <p>make me a better storyteller and give me a new way of seeing things. Check my roudtrip video on <strong><a target="_blank" href="https://www.youtube.com/watch?v=EimaH8JIYiU&t=3s" style="color:black;">Youtube</a></strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <!-- End of Services block -->
+
+                            <!-- Clients block -->
+
+
+                            <!--<div class="row">
+                                <div class="col-sm-4 col-md-2 subpage-block">
+                                    <div class="client-block">
+                                        <a href="#" target="_blank"><img src="images/clients/client_1.png" alt="image"></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4 col-md-2 subpage-block">
+                                    <div class="client-block">
+                                        <a href="#" target="_blank"><img src="images/clients/client_2.png" alt="image"></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4 col-md-2 subpage-block">
+                                    <div class="client-block">
+                                        <a href="#" target="_blank"><img src="images/clients/client_3.png" alt="image"></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4 col-md-2 subpage-block">
+                                    <div class="client-block">
+                                        <a href="#" target="_blank"><img src="images/clients/client_4.png" alt="image"></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4 col-md-2 subpage-block">
+                                    <div class="client-block">
+                                        <a href="#" target="_blank"><img src="images/clients/client_5.png" alt="image"></a>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-4 col-md-2 subpage-block">
+                                    <div class="client-block">
+                                        <a href="#" target="_blank"><img src="images/clients/client_6.png" alt="image"></a>
+                                    </div>
+                                </div>
+                            </div>-->
+                            <!-- End of Clients block -->
+
+                            <div class="row">
+
+                            </div>
+
+                           
+                        </div>
+                    </section>
+                    <!-- End of About Me Subpage -->
+
+                    <!-- Resume Subpage -->
+                    <section class="pt-page pt-page-3" data-id="resume">
+                        <div class="border-block-top-110"></div>
+                        <div class="section-inner">
+                            <div class="section-title-block">
+                                <div class="section-title-wrapper">
+                                    <h2 class="section-title">Resume</h2>
+                                    <h5 class="section-description"></h5>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+
+
+
+                                <div class="col-sm-6 col-md-4 subpage-block">
+                                    <div class="block-title">
+                                        <h3>Education</h3>
+                                    </div>
+                                    <div class="timeline">
+
+
+
+                                        <div class="timeline-event te-primary">
+                                            <h5 class="event-date">2017</h5>
+                                            <h4 class="event-name">Carnegie Mellon University</h4>
+                                            <br>
+                                            <p>MSIT E-Business, School of Computer Science</p>
+
+                                            <a href="#" data-toggle="collapse" data-target="#demo">+ Courses</a>
+
+                                            <div id="demo" class="collapse">
+                                                <span class="event-description">JAVA for Application Programmers (08-671)</span>
+                                                <span class="event-description">Client Side Web Technologies (08-724)</span>
+                                                <span class="event-description">Cloud Computing for Business (95-887)</span>
+                                                <span class="event-description">Contextual Design (08-702)</span>
+                                                <span class="event-description">User Interface Design and Testing (08-703)</span>
+
+                                                <span class="event-description">Software Design (08-704)</span>
+                                                <span class="event-description">Web Services (08-706)</span>
+                                                <span class="event-description">Web Application Development (08-707)</span>
+                                                <span class="event-description">Search Engines, Portals (08-710)</span>
+                                                <span class="event-description">Data Mining, CRM (08-711)</span>
+                                                <span class="event-description">Mobile Commerce (08-713)</span>
+                                                <span class="event-description">Big Data (08-712)</span>
+
+                                            </div>
+
+
+
+                                        </div>
+
+                                        <div class="timeline-event te-primary">
+                                            <h5 class="event-date">2017</h5>
+                                            <h4 class="event-name">Udacity</h4>
+                                            <br>
+                                            <p>Full Stack Web Developer Nondegree</p>
+
+
+                                        </div>
+
+
+                                        <div class="timeline-event te-primary">
+                                            <h5 class="event-date">2016</h5>
+                                            <h4 class="event-name">Purdue University</h4>
+                                            <br>
+                                            <p>Major: Management</p>
+                                            <p>Concentration: Management Information System</p>
+                                            <p>Minor: Film and Video Studies</p>
+
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-4 subpage-block">
+                                    <div class="block-title">
+                                        <h3>Experience</h3>
+                                    </div>
+                                    <div class="timeline">
+
+                                        <div class="timeline-event te-primary">
+                                            <h5 class="event-date">Aug 2014 – May 2015</h5>
+                                            <h4 class="event-name">Web Content Developer</h4>
+                                            <span class="event-description">NearbyEx.com</span>
+                                            <p>• Worked directly with UX team to evaluate site performance and identify opportunities for improving digital marketing strategies.</p>
+                                            <p>• Reviewed web analytics data to identify incohesive and underperforming web content. </p>
+                                            <p>• Used Content Management Systems to execute updates and enhancements on a regular basis.</p>
+                                        </div>
+
+
+
+                                        <div class="timeline-event te-primary">
+                                            <h5 class="event-date">Jan 2014 - Aug 2015</h5>
+                                            <h4 class="event-name">Design Director</h4>
+                                            <span class="event-description">VOICE Student Media Magazine</span>
+                                            <p>• Led 2 cross functional teams to design magazine layouts, advertisements, and exhibition displays. </p>
+                                            <p>• Collected and organized displayed contents, worked with International Student Office to held public exhibition about the history of international students at Purdue University, attended by more than 500 students and alumni.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-4 subpage-block">
+                                    <div class="block-title">
+                                        <h3>Skills</h3>
+                                    </div>
+                                    <div class="skills-info">
+
+
+
+                                        <h4>HTML5/CSS3</h4>
+                                        <div class="skill-container">
+                                            <div class="skill-percentage skill-1"></div>
+                                        </div>
+
+                                        <h4>Java</h4>
+                                        <div class="skill-container">
+                                            <div class="skill-percentage skill-2"></div>
+                                        </div>
+
+                                        <h4>JavaScript</h4>
+                                        <div class="skill-container">
+                                            <div class="skill-percentage skill-3"></div>
+                                        </div>
+
+
+                                        <h4>jQuery</h4>
+                                        <div class="skill-container">
+                                            <div class="skill-percentage skill-7"></div>
+                                        </div>
+
+                                        <h4>Angular</h4>
+                                        <div class="skill-container">
+                                            <div class="skill-percentage skill-7"></div>
+                                        </div>
+
+                                        <h4>MySQL</h4>
+                                        <div class="skill-container">
+                                            <div class="skill-percentage skill-8"></div>
+                                        </div>
+
+                                        <h4>Tea Drinking</h4>
+                                        <div class="skill-container">
+                                            <div class="skill-percentage skill-4"></div>
+                                        </div>
+
+                                        <h4>Skateboarding</h4>
+                                        <div class="skill-container">
+                                            <div class="skill-percentage skill-8"></div>
+                                        </div>
+
+                                    </div>
+                                    <br>
+                                    <div class="download-cv-block">
+                                        <a class="button" target="_blank" href="Yuhan_Zhou_Resume.pdf">Grab a PDF of my full resume</a>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </section>
+                    <!-- End Resume Subpage -->
+
+
+                    <!-- Portfolio Subpage -->
+                    <section class="pt-page pt-page-4" data-id="portfolio">
+                        <div class="border-block-top-110"></div>
+                        <div class="section-inner">
+                            <div class="section-title-block">
+                                <div class="section-title-wrapper">
+                                    <h2 class="section-title">Projects</h2>
+                                    <h5 class="section-description">What have I built?</h5>
+                                </div>
+                            </div>
+
+                            <!-- Portfolio Content -->
+                            <div class="portfolio-content">
+
+                                <!-- Portfolio filter -->
+                                <ul id="portfolio_filters" class="portfolio-filters">
+                                    <li class="active">
+                                        <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+                                    </li>
+                                    <li>
+                                        <a class="filter btn btn-sm btn-link" data-group="media">Web Development</a>
+                                    </li>
+                                    <li>
+                                        <a class="filter btn btn-sm btn-link" data-group="illustration">Ebusiness Solutions</a>
+                                    </li>
+                                    
+                                </ul>
+                                <!-- End of Portfolio filter -->
+                                <h3>Page Coming soon</h3>
+                                <!-- Portfolio Grid -->
+                                <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+                                    
+
+                                    <!-- Portfolio Item 1 -->
+                                    <!--<figure class="item" data-groups='["all", "Web Development"]'>
+                                        <a class="ajax-page-load" href="portfolio-1.html">
+                                            <img src="images/UI-design-project/cover.png" alt="">
+                                            <div>
+                                                <h5 class="name">User Interface Design and Testing</h5>
+                                                <small>Web Development</small>
+                                                <i class="pe-7s-icon pe-7s-display2"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 1 -->
+
+                                    <!-- Portfolio Item 2 -->
+                                    <!--<figure class="item" data-groups='["all", "video"]'>
+                                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Praesent Dolor Ex" class="lightbox mfp-iframe">
+                                            <img src="images/portfolio/2.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Video</small>
+                                                <i class="pe-7s-icon pe-7s-video"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 2 -->
+
+                                    <!-- Portfolio Item 3 -->
+                                    <!--<figure class="item" data-groups='["all","illustration"]'>
+                                        <a href="images/portfolio/full/3.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                                            <img src="images/portfolio/3.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Illustration</small>
+                                                <i class="pe-7s-icon pe-7s-photo"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 3 -->
+
+                                    <!-- Portfolio Item 4 -->
+                                    <!--<figure class="item" data-groups='["all", "media"]'>
+                                        <a class="ajax-page-load" href="portfolio-2.html">
+                                            <img src="images/portfolio/4.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Media</small>
+                                                <i class="pe-7s-icon pe-7s-display2"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 4 -->
+
+                                    <!-- Portfolio Item 5 -->
+                                    <!--<figure class="item" data-groups='["all", "illustration"]'>
+                                        <a href="images/portfolio/full/5.jpg" class="lightbox" title="Aliquam Condimentum Magna Rhoncus">
+                                            <img src="images/portfolio/5.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Illustration</small>
+                                                <i class="pe-7s-icon pe-7s-photo"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 5 -->
+
+                                    <!-- Portfolio Item 6 -->
+                                    <!--<figure class="item" data-groups='["all", "media"]'>
+                                        <a class="ajax-page-load" href="portfolio-3.html">
+                                            <img src="images/portfolio/6.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Media</small>
+                                                <i class="pe-7s-icon pe-7s-display2"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 6 -->
+
+                                    <!-- Portfolio Item 7 -->
+                                    <!--<figure class="item" data-groups='["all", "video"]'>
+                                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Nulla Facilisi" class="lightbox mfp-iframe">
+                                            <img src="images/portfolio/7.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Video</small>
+                                                <i class="pe-7s-icon pe-7s-video"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 7 -->
+
+                                    <!-- Portfolio Item 8 -->
+                                   <!-- <figure class="item" data-groups='["all",  "media"]'>
+                                        <a class="ajax-page-load" href="portfolio-4.html">
+                                            <img src="images/portfolio/8.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Media</small>
+                                                <i class="pe-7s-icon pe-7s-display2"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 8 -->
+
+                                    <!-- Portfolio Item 9 -->
+                                    <!--<figure class="item" data-groups='["all","illustration"]'>
+                                        <a href="images/portfolio/full/9.jpg" class="lightbox" title="Mauris Neque Dolor">
+                                            <img src="images/portfolio/9.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Illustration</small>
+                                                <i class="pe-7s-icon pe-7s-photo"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 9 -->
+
+                                    <!-- Portfolio Item 10 -->
+                                    <!--<figure class="item" data-groups='["all", "video"]'>
+                                        <a href="https://player.vimeo.com/video/97102654?autoplay=1" title="Donec Lectus Arcu" class="lightbox mfp-iframe">
+                                            <img src="images/portfolio/10.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Video</small>
+                                                <i class="pe-7s-icon pe-7s-video"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 10 -->
+
+                                    <!-- Portfolio Item 11 -->
+                                    <!--<figure class="item" data-groups='["all","illustration"]'>
+                                        <a href="images/portfolio/full/11.jpg" class="lightbox" title="Duis Eu Eros Viverra">
+                                            <img src="images/portfolio/11.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Illustration</small>
+                                                <i class="pe-7s-icon pe-7s-photo"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 11 -->
+
+                                    <!-- Portfolio Item 12 -->
+                                    <!--<figure class="item" data-groups='["all","media"]'>
+                                        <a class="ajax-page-load" href="portfolio-5.html">
+                                            <img src="images/portfolio/12.jpg" alt="">
+                                            <div>
+                                                <h5 class="name">Project Name</h5>
+                                                <small>Media</small>
+                                                <i class="pe-7s-icon pe-7s-display2"></i>
+                                            </div>
+                                        </a>
+                                    </figure>-->
+                                    <!-- /Portfolio Item 12 -->
+                                </div>
+                                <!-- /Portfolio Grid -->
+
+                            </div>
+                            <!-- /Portfolio Content -->
+                        </div>
+                    </section>
+                    <!-- /Portfolio Subpage -->
+
+                    <!-- Contact Subpage -->
+                    <section class="pt-page pt-page-5" data-id="contact">
+                        <div class="border-block-top-110"></div>
+                        <div class="section-inner">
+                            <div class="section-title-block">
+                                <div class="section-title-wrapper">
+                                    <h2 class="section-title">Contact</h2>
+                                    <h5 class="section-description">Get in Touch</h5>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-4 col-md-4 subpage-block">
+                                    <div class="block-title">
+                                        <h3>Get in Touch</h3>
+                                    </div>
+                                    <p>Looking for a true contributer or just wanna say hi?</p>
+                                    <p>Feel free to send me an email!</p>
+                                    <div class="contact-info-block">
+                                        <div class="ci-icon">
+                                            <i class="pe-7s-icon pe-7s-map-marker"></i>
+                                        </div>
+                                        <div class="ci-text">
+                                            <h5>Pittsburgh, USA</h5>
+                                        </div>
+                                    </div>
+                                    <div class="contact-info-block">
+                                        <div class="ci-icon">
+                                            <i class="pe-7s-icon pe-7s-mail"></i>
+                                        </div>
+                                        <div class="ci-text">
+                                            <h5>rainac527(AT)google.com</h5>
+                                        </div>
+                                    </div>
+                                    <div class="contact-info-block">
+                                        <div class="ci-icon">
+                                            <i class="pe-7s-icon pe-7s-call"></i>
+                                        </div>
+                                        <div class="ci-text">
+                                            <h5>(765)-479-5724</h5>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-sm-8 col-md-8 subpage-block">
+
+
+                                    <br>
+                                    <br>
+
+                                    <table style="width:100%;" cellspacing="0" cellpadding="0">
+
+                                        <tr>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                            <th width="50"></th>
+                                        </tr>
+                                        <br>
+                                        <tr>
+
+                                            <td style="vertical-align: top; padding-bottom: 5px;" width="50"><img style="display: inline; border-radius: 50%; width:50px; height: 50px; margin-top: 7px;" alt="Ben" src="http://scontent.cdninstagram.com/t51.2885-19/s150x150/14709450_594698837398603_5069511643642200064_a.jpg" width="50"></td>
+                                            <td style="vertical-align: top; padding-bottom: 5px;" colspan="11" style="vertical-align: top;">
+                                                <p style="font-family: 'Helvetica-Neue', Helvetica, Arial; font-weight: 300; display: inline-block; min-height: 20px; min-width: 70px; margin: 0; vertical-align: top; line-height: 1.4; font-size: 16px; padding-top: 15px; padding-bottom: 15px; padding-left: 20px; padding-right: 20px; background-color: #EFF3F7; border-radius: 5px; box-shadow: 0 1px 3px 0px #a7b6c5; margin: 5px 10px 0;">Oh man...These white backgrounds are making me pretty uncomfortable.</p><span style="font-family: 'Helvetica-Neue', Helvetica, Arial; font-size: 9px; padding: 4px; letter-spacing: 0.1em; border-radius: 2px; color: #147FD7; text-transform: uppercase; display: block; padding: 10px 10px; clear: both;">Morty</span></td>
+                                        </tr>
+                                        <tr align="right">
+                                            <td style="vertical-align: top; padding-bottom: 5px;" colspan="11">
+                                                <p style="float:right; font-family: 'Helvetica-Neue', Helvetica, Arial; font-weight: 300; display: inline-block; min-width: 70px; margin: 0; vertical-align: top; line-height: 1.4; font-size: 16px; padding: 15px 20px; background-color: #EFF3F7; border-radius: 5px; box-shadow: 0 1px 3px 0px #a7b6c5; margin: 5px 10px 0;">Get used to it, Morty. We're in a universe where artistic talent doesn't exist.</p><span style="float:right; font-family: 'Helvetica-Neue', Helvetica, Arial; font-size: 9px; padding: 4px; letter-spacing: 0.1em; border-radius: 2px; color: #147FD7; text-transform: uppercase; display: block; margin: 5px 10px; clear: both;">Grandpa Rick</span></td>
+
+                                            <td style="vertical-align: top; padding-bottom: 5px;" width="50"><img style="display: inline; border-radius: 50%; width:50px; height: 50px; margin-top: 7px;" alt="Jerry" src="http://accounts-cdn.9gag.com/media/avatar/5134877_100_3.jpg" width="50"></td>
+                                        </tr>
+                                    </table>
+                                    <!--<div class="block-title">
+                                        <h3>Contact Form</h3>
+                                    </div>-->
+                                    <!--<form id="contact-form" method="post" action="contact_form/contact_form.php">
+
+                                        <div class="messages"></div>
+
+                                        <div class="controls">
+                                            <div class="form-group">
+                                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                                                <div class="form-control-border"></div>
+                                                <i class="form-control-icon pe-7s-user"></i>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                                                <div class="form-control-border"></div>
+                                                <i class="form-control-icon pe-7s-mail"></i>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for Me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                                                <div class="form-control-border"></div>
+                                                <i class="form-control-icon pe-7s-comment"></i>
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+
+                                            <input type="submit" class="button btn-send" value="Send message">
+                                        </div>
+                                    </form>-->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- End Contact Subpage -->
+
+                </div>
+            </div>
+            <!-- /Page changer wrapper -->
+        </div>
+        <!-- /Main Content -->
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/pages-switcher.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/myPage.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
